@@ -1,0 +1,70 @@
+:root {
+  font-family: Roboto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.navbar__title {
+  color: hsl(205, 78%, 60%);
+}
+
+.navbar__list {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar__item {
+  margin-right: 2rem;
+}
+
+.navbar__link {
+  color: #000;
+  text-decoration: none;
+}
+.navbar__link:hover {
+  color: hsl(205, 78%, 60%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  padding: 0rem 5rem;
+}
+
+.container__text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #000;
+}
+
+.container__button {
+  background-color: rgba(255, 255, 255, 0%);
+  font-family: Roboto;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container__button:hover {
+  color: #fff;
+  background-color: #000;
+  transition: color 1s, background-color 1s;
+}
