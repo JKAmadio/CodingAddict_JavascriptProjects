@@ -1,0 +1,108 @@
+body {
+  font-family: Roboto;
+  height: 100%;
+  background-color: hsl(210, 36%, 96%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 620px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.container__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 60vh;
+  min-height: 480px;
+  padding: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 0.5px #c4c4c4;
+}
+
+#card__people {
+  padding: 0;
+  margin: 0;
+  min-height: 340px;
+}
+
+.card__person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#person__image {
+  border-radius: 50%;
+  border-top: 9px solid hsl(205, 78%, 60%);
+  border-right: 9px solid hsl(205, 78%, 60%);
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+#person__name {
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+#person__job {
+  color: hsl(205, 78%, 60%);
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+#person__text {
+  font-weight: 300;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  letter-spacing: 0.1rem;
+  color: hsl(209, 31%, 26%);
+  text-align: center;
+  margin-top: 5px;
+}
+
+#arrowButtons {
+  margin: 0;
+}
+
+.card__button {
+  background-color: rgba(255, 255, 255, 0%);
+  font-weight: 500;
+  color: hsl(205, 78%, 60%);
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.card__button:hover {
+  color: hsl(205, 78%, 30%);
+  transition: color 0.5s;
+}
+
+#button__random {
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 8px;
+  border: 1px solid hsl(205, 78%, 60%);
+}
+
+#button__random:hover {
+  color: #ffffff;
+  background-color: hsl(205, 78%, 50%);
+  transition: color 0.5s, background-color 0.5s;
+}
